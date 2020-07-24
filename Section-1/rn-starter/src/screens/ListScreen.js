@@ -15,6 +15,8 @@ const ListScreen = () => {
     ]
     return (
         <FlatList 
+            horizontal    // boolean value to scroll horizontally
+            showsHorizontalScrollIndicator={false}
             keyExtractor={friend => friend.name}  //A better way of assigning keys compared to hard-coding 
             data={friends} 
             renderItem={({ item }) => {   // (element) returns{item: {name: 'Friend#1'}, index: 0 } Therefore: use ({item}) directly
