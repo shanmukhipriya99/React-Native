@@ -1,0 +1,9 @@
+1) <Flatlist> takes in two parameters: 
+        the array of data
+        renderItem (like map() in react)
+2) Keys are important while using lists:
+   If keys were not present and even if a single element is deleted, then all the elements are deleted and the remaining elements are then displayed again
+   If keys are present, only the deleted element will disappear.
+   Used for performance optimization
+   Should be a string and unique
+   
