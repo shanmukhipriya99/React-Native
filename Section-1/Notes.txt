@@ -5,3 +5,7 @@
 5) Part-4: Export the Component so we can use it elsewhere in the project
 6) React library: how different Components act together
 7) React Native library: knows how to take information from the Components and use it to actually show some content on the mobile device
+8) We cannot display a Js object inside a <Text> element!!!
+    ex: const greeting = { color: 'red' }
+        return <Text> {greeting} </Text>
+        this will give an error
