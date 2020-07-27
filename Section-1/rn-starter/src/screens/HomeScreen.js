@@ -11,6 +11,9 @@ const HomeScreen = (props) => {  //can use destructuring to replace (props) with
         <Button 
         title='Go to List Demo'
         onPress={() => props.navigation.navigate('List')}/>
+        <Button 
+        title='Go to Image screen'
+        onPress={() => props.navigation.navigate('Image')}/>
     </View>
   );
 };
