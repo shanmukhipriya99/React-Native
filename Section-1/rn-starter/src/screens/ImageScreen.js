@@ -4,9 +4,9 @@ import ImageDetail from "../components/ImageDetail";
 
 const ImageScreen = () => {
   return <View>
-      <ImageDetail title='Forest' />
-      <ImageDetail title='Beach' />
-      <ImageDetail title='Mountain' />
+      <ImageDetail title='Forest' source={require('../../assets/forest.jpg')}/> //props can be named anything here
+      <ImageDetail title='Beach' source={require('../../assets/beach.jpg')}/>
+      <ImageDetail title='Mountain' source={require('../../assets/mountain.jpg')}/>
   </View>
 };
 
