@@ -5,6 +5,7 @@ const ImageDetail = (props) => {
     return <View>
         <Image source={props.source} />
         <Text>{props.title}</Text>
+        <Text>Image score - {props.score}</Text>
     </View>;
 }
 
